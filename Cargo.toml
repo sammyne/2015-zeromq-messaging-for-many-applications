@@ -1,7 +1,8 @@
 [workspace]
-members = ["chapter01/hello-world"]
+members = ["chapter01/hello-world", "chapter01/weather-updater"]
 
 resolver = "2"
 
 [workspace.dependencies]
+rand = "0.8.5"
 zmq = "0.10.0"
