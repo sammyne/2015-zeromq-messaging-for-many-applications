@@ -1,7 +1,7 @@
 use std::io::{self, Write};
 use std::{thread, time};
 
-use zmq::{Context,SocketType};
+use zmq::{Context, SocketType};
 
 fn atoi(s: &str) -> i64 {
     s.parse().unwrap()

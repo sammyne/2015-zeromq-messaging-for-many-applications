@@ -1,7 +1,7 @@
 use std::io::{self, Write};
 use std::time::Instant;
 
-use zmq::{Context,SocketType};
+use zmq::{Context, SocketType};
 
 fn main() {
     let context = Context::new();
